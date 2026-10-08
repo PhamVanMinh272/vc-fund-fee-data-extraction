@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trình Quản Lý & Xem Văn Bản PDF</title>
+    <style>
+        /* Tích hợp grid & layout Bootstrap cơ bản để tối ưu tốc độ 100% offline */
+        *,::after,::before{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background-color:#f8f9fa;height:100vh;overflow:hidden;color:#212529}.navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:between;padding:.5rem 1rem;background-color:#212529;color:#fff;box-shadow:0 .125rem .25rem rgba(0,0,0,.075)}.navbar-brand{padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.15rem;text-decoration:none;color:#fff;font-weight:700}.container-fluid{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto}.row{display:flex;flex-wrap:wrap;height:100%}.col-sidebar{flex:0 0 auto;width:25%;background-color:#fff;border-right:1px solid #dee2e6;overflow-y:auto;padding:1rem;box-shadow:0 .125rem .25rem rgba(0,0,0,.075)}.col-content{flex:0 0 auto;width:75%;overflow-y:auto;padding:1.5rem;background-color:#fff}.main-container{height:calc(100vh - 56px)}.list-group{display:flex;flex-direction:column;padding-left:0;margin-bottom:0}.pdf-item{position:relative;display:block;width:100%;padding:.75rem 1rem;color:#212529;text-align:left;background-color:#fff;border:1px solid rgba(0,0,0,.125);border-radius:.375rem;margin-bottom:.3rem;cursor:pointer;transition:all .15s ease;text-decoration:none;overflow:hidden;text-truncate:ellipsis;white-space:nowrap}.pdf-item:hover{background-color:#f1f3f5;border-color:#ced4da}.pdf-item.active{z-index:2;color:#fff;background-color:#0d6efd;border-color:#0d6efd}.text-output{white-space:pre-wrap;font-family:Consolas,"Liberation Mono",Courier,monospace;background-color:#f8f9fa;padding:20px;border-radius:6px;border:1px solid #dee2e6;max-height:78vh;overflow-y:auto;font-size:.95rem;line-height:1.6}.d-none{display:none!important}.d-flex{display:flex!important}.justify-content-between{justify-content-between:space-between!important;display:flex;justify-content:space-between;align-items:center}.align-items-center{align-items:center!important}.text-truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.btn{display:inline-block;font-weight:400;line-height:1.5;color:#212529;text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;border-radius:.375rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out}.btn-light{color:#000;background-color:#f8f9fa;border-color:#dee2e6}.btn-light:hover{background-color:#e2e6ea;border-color:#dae0e5}.btn-success{color:#fff;background-color:#198754;border-color:#198754}.text-center{text-align:center!important}.my-5{margin-top:3rem!important;margin-bottom:3rem!important}.py-5{padding-top:3rem!important;padding-bottom:3rem!important}.text-muted{color:#6c757d!important}.mb-3{margin-bottom:1rem!important}.border-bottom{border-bottom:1px solid #dee2e6!important}
+
+        /* Tối ưu hóa thanh cuộn */
+        ::-webkit-scrollbar{width:6px;height:6px}
+        ::-webkit-scrollbar-track{background:#f1f1f1}
+        ::-webkit-scrollbar-thumb{background:#c1c1c1;border-radius:3px}
+        ::-webkit-scrollbar-thumb:hover{background:#a8a8a8}
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">📄 PDF Extractor Viewer</a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container-fluid main-container">
+        <div class="row">
+
+            <!-- Cột trái: Danh sách file PDF -->
+            <div class="col-sidebar">
+                <div style="margin-bottom: 1rem; padding: 0 .5rem;">
+                    <h5 style="margin: 0; color: #495057; font-size: 0.9rem; text-uppercase: uppercase; font-weight: bold; letter-spacing: .5px;">Danh sách File PDF</h5>
+                </div>
+                <div class="list-group">
+                    {% for file in pdf_files %}
+                    <button class="pdf-item text-truncate" onclick="loadText('{{ file.name }}', this)">
+                        📁 {{ file.name }}.pdf
+                    </button>
+                    {% else %}
+                    <div style="padding: 1rem; background-color: #fff3cd; color: #664d03; border: 1px solid #ffecb5; border-radius: .375rem; font-size: 0.9rem;">
+                        Không tìm thấy file PDF nào trong thư mục resources/pdf/
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Cột phải: Nội dung văn bản trích xuất -->
+            <div class="col-content">
+                <div id="welcome-message" class="text-center my-5 py-5">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">📂</div>
+                    <h3 class="text-muted" style="font-weight: 400; font-size: 1.25rem;">Chọn một file PDF để xem nội dung văn bản trích xuất</h3>
+                </div>
+
+                <div id="text-container" class="d-none">
+                    <div class="justify-content-between border-bottom" style="padding-bottom: .75rem; margin-bottom: 1rem;">
+                        <h4 id="pdf-title" class="text-truncate" style="margin: 0; font-size: 1.25rem; color: #0d6efd; font-weight: 600;">Tên File</h4>
+                        <button class="btn btn-light" onclick="copyText(this)">
+                            📋 Sao chép
+                        </button>
+                    </div>
+                    <div id="extracted-text" class="text-output">Đang tải dữ liệu...</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Script điều khiển AJAX siêu tốc -->
+    <script>
+        function loadText(filename, element) {
+            // Đổi class active cho item được chọn
+            document.querySelectorAll('.pdf-item').forEach(item => item.classList.remove('active'));
+            element.classList.add('active');
+
+            // Hiển thị khung văn bản
+            document.getElementById('welcome-message').classList.add('d-none');
+            document.getElementById('text-container').classList.remove('d-none');
+
+            document.getElementById('pdf-title').innerText = filename + '.pdf';
+            const textOutput = document.getElementById('extracted-text');
+            textOutput.innerText = "Đang tải dữ liệu...";
+
+            // Gọi API Flask
+            fetch(`/get-text/${encodeURIComponent(filename)}`)
+                .then(response => response.json())
+                .then(data => {
+                    if(data.success) {
+                        textOutput.innerText = data.content;
+                        textOutput.scrollTop = 0; // Tự động cuộn lên đầu trang
+                    } else {
+                        textOutput.innerText = "Lỗi: Không tìm thấy file text trích xuất hoặc dữ liệu trống.";
+                    }
+                })
+                .catch(error => {
+                    textOutput.innerText = "Lỗi kết nối đến server Flask.";
+                    console.error(error);
+                });
+        }
+
+        function copyText(btn) {
+            const text = document.getElementById('extracted-text').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = "✅ Đã chép!";
+                btn.className = "btn btn-success";
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.className = "btn btn-light";
+                }, 1200);
+            });
+        }
+    </script>
+</body>
+</html>
