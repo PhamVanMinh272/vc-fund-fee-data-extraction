@@ -1,0 +1,193 @@
+ 
+The ILPA Model Limited Partnership Agreement  (Whole of 
+Fund Version)  
+Background : 
+A standard  Model  Limited  Partnership  Agreement  (“LPA”)  has been  a persistent  need  in the private  equity 
+asset class given the cost, time and complexity of negotiating the terms of investment. General Partners 
+(“GPs”) have an interest in reducing the length of side letter agreements, providing fundraising certainty, 
+and lowering their fund formation costs. Similarly, Limited Partners (“LPs”) wish to have fair and 
+transparent terms that explain rights and obligations, while also lowering their legal negotiation  costs.  
+The Model LPA is a comprehensive, Delaware -law based “whole of fund” waterfall limited partnership 
+agreement that can be used in its entirety to structure investments into a traditional private equity buyout 
+fund.  Additional  versions  of the Model  LPA,  including  one based  on a “deal -by-deal”  waterfall,  will be 
+released imminently.  
+The Model  LPA is part of ILPA’s  broader  LPA Simplification  Initiative  and began  in early  2018,  with a group 
+of approximately 20 attorneys representing both GPs and LPs in the global marketplace. Through an 
+extensive  process  of drafting  and negotiation,  these  attorneys,  along  with the ILPA  team,  drafted  a Model 
+LPA for private  equity.   The original version of the ILPA Model LPA “Whole of Fund” (WOF) version 
+was released in fall 2019, with updates  released in July 2020. For the updates made to the Model 
+LPA, please see the section at the bottom of this document.  
+ 
+The Model LPA Delivers Value to the Private Equity Industry:  
+• Complimentary, Public Document: There is significant value to the private equity marketplace to 
+have  a publicly  available,  complimentary  template  LPA for all to reference.  Bespoke  versions  of private 
+equity LPAs are currently covered by non -disclosure agreements and not available to the public for 
+comparison or  adoption.  
+ 
+The Model LPA Delivers Value to LPs:  
+• Core LP Negotiation Tool: The Model LPA is useful for negotiation by LPs and LP Counsel with 
+established managers that have an existing LPA they are putting forth. Individual provisions in this 
+document can be easily negotiated or adopted, with draft language that LPs know will be acceptable 
+to them, and familiar to GP  counsel.  
+• ILPA Benchmarking Tool: The Model LPA will be useful to LPs as a benchmarking tool to compare 
+against existing LPAs they have signed, and funds they are evaluating, allowing them to have actual 
+Principles 3.0 verified legal language which they can compare against terms in the  marketplace.  
+• LP Emerging Manager Program Utilization: The Model LPA is an excellent starting point for 
+programs  that seek  to seed  or provide  capital  to new managers  as part of a designed  program.  These 
+programs can adopt the ILPA Model LPA and encourage the GPs applying for seed capital in the 
+program to use the document for raising their  funds.  
+• LP Education: ILPA plans to use the Model LPA to educate LPs about reasonable terms, and LPs 
+can also use this document  in their own internal  training  program s to share  which  terms  are fair to LPs 
+and which are  problematic.  
+ 
+The Model LPA Delivers Value to  GPs:  
+• Starting  Point  for LP-friendly  Fundraise:  All GPs who are interested  in putting  forth a fair, equitable 
+LPA for their fund can use this document as a starting point to ensure they will be attractive from a 
+terms perspective to the LP  community.  
+• Emerging Manager Roadmap for LP Capital/Terms: New and emerging managers or managers in 
+the emerging markets, who wish to attract LP capital and establish best practices for their fund, can 
+adopt this document with reduced legal costs, lower the organization expenses of the fund, and send 
+a signal to LPs about the importance of a strong partnership between the GP and the  LP. 
+The Model LPA Delivers Value to GPs (continued):  
+• Market Signaling to Established Managers and their Counsel: GPs and GP counsel can use this 
+document  as a baseline  to what  terms  are important  to LPs and what  they believe  is reasonable  in the 
+negotiation.  
+• Reduction  of Side  Letter  Negotiation  Costs  and Time:  GPs and GP counsel  can seek  to implement 
+provisions  from the ILPA  Model  LPA into their own form for forthcoming  funds  to minimize  the number 
+and scope of side letter agreements with their LPs and the cost of  negotiation.  
+ 
+Participating Attorneys and Firms on the LPA Task Force:  
+• Semma Arzapalo, Pillsbury Winthrop  Shaw 
+Pittman  LLP 
+• Todd Boudreau, Morrison & Foerster  LLP 
+• Edyta Brozyniak, MJ Hudson  LLP 
+• Won-Han Cheng, K&L Gates  LLP 
+• Eamon Devlin, MJ Hudson  LLP 
+• Jon Ellison, University of Texas & Texas A&M 
+Investment Management Company  (UTIMCO)  
+• Mary Hornby, Abbott Capital Management  LLC 
+• Ami Jani, K&L  Gates  
+• Michael Jordan, Ice Miller  LLP • Edward Klees, Hirschler Fleischer  PC 
+• Mark Lasee, Kutak Rock  LLP 
+• Marc Lieberman, Kutak Rock  LLP 
+• Batya Nadler, Torys  LLP 
+• Margaret Niles, K&L Gates  LLP 
+• James O’Donnell, DLA Piper  LLP 
+• Yuliya Oryol, Nossaman  LLP 
+• David Parrish, DLA Piper  LLP 
+• Bob Perez, Foster Garvey  PC 
+• Emily Smith, Kutak Rock  LLP 
+• David Winter, Hogan Lovells  LLP 
+ 
+Key Terms in the ILPA Model LPA  (WOF Version) : 
+The following is a summary of the relevant terms included in the ILPA Model LPA. These provisions apply 
+the positions taken in ILPA Principles 3.0:  
+ 
+Fund Economics in the ILPA Model LPA  
+• Includes  a “whole  of fund”  waterfall  to limit the possibility  of a clawback  and ensure  long-term alignment 
+of interest. ( Note, ILPA released a deal by deal waterfall version of this document in July 2020.  
+• Includes a GP catchup and preferred return to drive alignment between GP and LP and focus on 
+investment  performance;  
+• Includes an optional escrow provision to ensure LP  protection;  
+• Includes a GP clawback to ensure LP  protection;  
+• Includes an LP giveback to ensure fairness for the  GP; 
+• Allows flexibility to modify the economic arrangements of the investment opportunity based on the 
+particular GP and  strategy;  
+ 
+Standard of Care and Exculpation & Indemnification  
+• Recognizes a fiduciary duty of the GP and manager and includes an appropriate standard of care to 
+ensure trust in the long-term GP/LP  relationship;  
+• Includes GP exculpation to protect the GP in certain circumstances, but excludes GP indemnification 
+in the case of a breach of the LPA to make the terms of the agreement  meaningful;  
+• Includes a provision for removal of the GP for material breach of the  LPA; and  
+• Does not allow the GP to “pre -clear” of conflicts of interest in order to ensure LP  consent.  
+ 
+Co-Investments  
+• Specifies  that a co-investor  should  bear its pro-rata share  of fees,  expenses,  and liabilities  of a portfolio 
+investment for fairness to the other LPs in the  fund.  Governance, Control & LPAC Provisions  
+• Provides for expanded rights and tools for the LPAC for improved governance for the fund including:  
+– the ability to meet in camera without the GP or its affiliates  present;  
+– the ability  to appoint  advisers  at the expense  of the fund to provide  expertise  in decision -making;  
+– the ability to be covered by insurance as a fund expense to protect LPAC  members;  
+• Requires that the LPAC approve all affiliate transactions, even if they are at “arm’s length” to ensure 
+informed consent to conflicts of  interest;  
+• Includes a limit on the amount of reserves a GP can hold to ensure all capital is being deployed to 
+maximize performance and  returns;  
+• Includes the LP right, upon a sufficient vote threshold, to terminate or suspend the commitment period 
+of the  fund;  
+• Requires consent of a significant majority of LPs for a change of control of the GP or management 
+company to ensure alignment of  interest;  
+ 
+Key Person and Removal Provisions  
+• Includes  a no-fault removal  provision  without  payment  of additional  management  fees to the GP, upon a 
+LP vote  threshold;  
+• Includes the option to impose a haircut on carried interest to the GP upon the vote of a supermajority 
+of LPs; 
+• Provides  for the reduction  of carried  interest  to the GP by 100%  upon  a vote of the LP to remove  a GP 
+for cause;  
+• Provides for the automatic suspension of the investment period upon a key-person event  occurrence;  
+• Includes an automatic termination of the investment period of the fund after an optional period of time 
+if LPs do not approve a remediation plan for a key person  event.  
+ 
+Information & Communication Access for LPs  
+• Includes specific disclosures that can be made by LPs without prior GP  approval;  
+• Explicitly permits LPs in the fund to communicate with one another about fund related issues in order 
+to exercise their governance  obligations; and  
+• Requires GPs to furnish LPs with a list of all other LPs in the fund on a quarterly basis to ensure that 
+the partners are aware of who their peers are and can adequately exercise their governance rights if 
+necessary.  
+ 
+Updates Made to the ILPA Model LPA “Whole of Fund” (WOF) Version in July 2020:  
+ 
+Since the ILPA Model LPA WOF Version was released in Fall 2019, ILPA has received feedback from the 
+marketplace on the document.  We also, while  crafting the Deal -by-Deal version of the LPA, realized that 
+certain sections of both documents, including particular definitions, had to be added or updated to align 
+both documents. Some of the industry feedback received also suggested a Term Sheet explaining the 
+document would be helpful to the market, which we have  included.  
+ 
+To improve transparency, governance and alignment of interests, the updates to ILPA Model LPA  WOF 
+Version generally provide additional clarity on several issues, as well as some fine -tuning and other clean -
+up edits.    
+ 
+Transparency:  
+ 
+• Valuation (Section 1.1):   A specific valuation methodology is identified in the Agreement.  
+ 
+• Capital Call and Distribution Notices (Sections 6.2.1 and 14.1.3):   Capital call notices and 
+distribution notices are required to be consistent with the ILPA Capital Call and Distribution Notice 
+Template.  
+ 
+Governance:   
+1. Investment Limitations (Section 7.1.4):   Commitment -based limits on investments have been 
+adjusted to take into account Fund borrowing.  
+ 
+2. Listed Transactions and Prohibited Tax Shelter Transactions (Section 15.5):   Typical side letter 
+language regarding “listed transactions” and “prohibited tax shelter transactions” has been added.  
+ 
+3. Fiduciary Duty (Section 20.5):   Language has been added to clarify, for the avoidance of doubt, that, 
+in exercising its discretion under the Agreement, the General Partner may not place its interests 
+ahead of the interests of the Fund or the Limited Partners.  
+ 
+Alignment of Interest:  
+ 
+1. Preferred Return (Section 1.1):   Revisions have been made to clarify that the preferred return 
+continues to accrue until all contributed capital is returned, and unpaid preferred return is paid, to the 
+Limited Partners.  
+ 
+2. Management Fee (Section 8.3.2.2):   Reduction in the management fee payable after the step -down 
+date has been clarified to take into account any realizations (in whole or in part) of portfolio 
+investments.  
+ 
+3. Haircut on Carried Interest on Termination of the Fund (Sections 10.2 and 10.4):   Haircut on carried 
+interest distributions applicable on a removal of the General Partner for cause or without cause will 
+also apply to a termination of the Fund on the same basis.  
+ 
+4. Clawback - Escrow (Section 14.7.2):   Percentage of carried interest distributions to be deposited into 
+carried interest escrow has been suggested at 30%, consistent with ILPA Principles 3.0.  
+ 
+5. Clawback - Personal Guarantee (Section 14.7.3):   General Partner is required to provide personal 
+guarantees (optionally on a joint and several basis) from the ultimate carried interest recipients.  
+ 
+ 
+For more information on the Model LPA, please contact Chris Hayes, Senior Policy Counsel, ILPA, at 
+chayes@ilpa.org . 

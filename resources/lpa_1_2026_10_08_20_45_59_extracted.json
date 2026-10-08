@@ -1,0 +1,64 @@
+{
+    "fees": [
+        {
+            "fund_name": null,
+            "fee_type": "MANAGEMENT_FEE",
+            "phase": "INVESTMENT_PERIOD",
+            "rate_percentage": 2.0,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": "Section 2.1",
+            "raw_text_citation": "Management fee of 2.0% per annum during the Investment Period.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": null,
+            "fee_type": "CARRIED_INTEREST",
+            "phase": "POST_INVESTMENT_PERIOD",
+            "rate_percentage": 20.0,
+            "calculation_basis": "NET_INVESTED_CAPITAL",
+            "hurdle_rate_percentage": 8.0,
+            "frequency": null,
+            "source_clause": "Section 4.2",
+            "raw_text_citation": "Carried interest of 20.0% of Net Invested Capital, subject to a 8.0% hurdle rate.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": null,
+            "fee_type": "ORGANIZATIONAL_EXPENSES",
+            "phase": "EXTENSION_PERIOD",
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": "Section 5.1",
+            "raw_text_citation": "Organizational expenses of $1.0 million per annum during the Extension Period.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": null,
+            "fee_type": "TRANSACTION_FEE_OFFSET",
+            "phase": null,
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": "Section 6.1",
+            "raw_text_citation": "Transaction fee offset of 0.5% of committed capital.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": null,
+            "fee_type": "OTHER",
+            "phase": null,
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": "Section 7.1",
+            "raw_text_citation": "Other fees of $500,000 per annum.",
+            "additional_notes": null
+        }
+    ]
+}

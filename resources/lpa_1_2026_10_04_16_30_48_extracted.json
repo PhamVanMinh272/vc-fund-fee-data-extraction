@@ -1,0 +1,76 @@
+{
+    "fees": [
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "MANAGEMENT_FEE",
+            "phase": "INVESTMENT_PERIOD",
+            "rate_percentage": 2.0,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": 11.3,
+            "raw_text_citation": "Legal and T ax Opinions:  The transferring Limited Partner provides the General Partner with a legal opinion, issued by counsel reasonably acceptable to the GP , stating that the Transfer will not violate applicable federal, state, or international securities laws, and will not cause the Partnership to be treated as a ",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "CARRIED_INTEREST",
+            "phase": "POST_INVESTMENT_PERIOD",
+            "rate_percentage": 8.0,
+            "calculation_basis": "NET_INVESTED_CAPITAL",
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": 11.3,
+            "raw_text_citation": "Carried Interest:  The prospective transferee completes and passes all standard Anti-Money Laundering (AML), Know-Your-Customer (KYC), and sanctions screening protocols required by the Partnership's regulatory jurisdiction.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "ORGANIZATIONAL_EXPENSES",
+            "phase": "INVESTMENT_PERIOD",
+            "rate_percentage": 1.0,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": "Annually",
+            "source_clause": 11.3,
+            "raw_text_citation": "Transfer Expenses:  The transferring Limited Partner or the transferee pays all reasonable legal, administrative, and processing fees incurred by the Partnership, the General Partner , and the Management Company in connection with evaluating and executing the Transfer .",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "TRANSACTION_FEE_OFFSET",
+            "phase": "INVESTMENT_PERIOD",
+            "rate_percentage": 0.5,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": "Quarterly",
+            "source_clause": 11.3,
+            "raw_text_citation": "Permitted Third-Party Sale:  If the existing Limited Partners do not elect to purchase the entire Transfer Interest within the 20-Business-Day period, the transferring Limited Partner may proceed to sell the remaining interest to the third-party of feror named in the Transfer Notice, subject to the final written consent of the General Partner and the fulfillment of all conditions set forth in Section 11.2.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": null,
+            "fee_type": "OTHER",
+            "phase": "ENTIRE_TERM",
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": 12.1,
+            "raw_text_citation": "Section 12.1 Events of Dissolution The Partnership shall be dissolved and its af fairs shall be wound up exclusively upon the occurrence of any of the following events: 1. The expiration of the Fund's 10-year term plus any authorized extensions explicitly approved under Section 2.5; 2. The written determination of the General Partner , with the prior written consent of a Supermajority V ote of the Limited Partners, that the Fund should be dissolved early; 3. The Bankruptcy , insolvency , dissolution, or Removal for Cause of the General Partner , unless a replacement General Partner is appointed by a Supermajority V ote within ninety (90) days of such event to continue the business of the Fund; or 4. The entry of a decree of judicial dissolution of the Partnership under Section 17-802 of the Delaware Act.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": null,
+            "fee_type": "OTHER",
+            "phase": "ENTIRE_TERM",
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": 12.3,
+            "raw_text_citation": "Section 12.3 Liquidating Distributions The proceeds derived from the liquidation of the Partnership's assets, together with any remaining cash balances, shall be distributed by the Liquidating Trustee in the following strict order of priority: 1. First, Payment of Creditors:  To pay all debts, liabilities, and obligations of the Partnership owed to external creditors (including banks, lenders, and service providers) and to pay the reasonable expenses associated with the winding-up process;",
+            "additional_notes": null
+        }
+    ]
+}

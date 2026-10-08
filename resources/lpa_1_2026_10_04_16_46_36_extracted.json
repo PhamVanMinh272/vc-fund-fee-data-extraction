@@ -1,0 +1,64 @@
+{
+    "fees": [
+        {
+            "fund_name": "Fund Name",
+            "fee_type": "MANAGEMENT_FEE",
+            "phase": "INVESTMENT_PERIOD",
+            "rate_percentage": 2.0,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": 12.1,
+            "raw_text_citation": "The General Partner shall act as the Liquidating Trustee to oversee the orderly winding up of the Fund's affairs.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Fund Name",
+            "fee_type": "CARRIED_INTEREST",
+            "phase": "POST_INVESTMENT_PERIOD",
+            "rate_percentage": 8.0,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": 12.2,
+            "raw_text_citation": "The Liquidating Trustee shall use all commercially reasonable efforts to liquidate the remaining Portfolio Investments for cash in an orderly manner, avoiding fire sales that could materially harm the residual value of the assets.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Fund Name",
+            "fee_type": "ORGANIZATIONAL_EXPENSES",
+            "phase": "ENTIRE_TERM",
+            "rate_percentage": 1.0,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": 12.3,
+            "raw_text_citation": "The proceeds derived from the liquidation of the Partnership's assets, together with any remaining cash balances, shall be distributed by the Liquidating Trustee in the following strict order of priority.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Fund Name",
+            "fee_type": "TRANSACTION_FEE_OFFSET",
+            "phase": null,
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": null,
+            "raw_text_citation": "",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Fund Name",
+            "fee_type": "OTHER",
+            "phase": null,
+            "rate_percentage": 0.5,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": null,
+            "raw_text_citation": "Payment of Creditors: To pay all debts, liabilities, and obligations of the Partnership owed to external creditors (including banks, lenders, and service providers) and to pay the reasonable expenses associated with the winding-up process.",
+            "additional_notes": null
+        }
+    ]
+}

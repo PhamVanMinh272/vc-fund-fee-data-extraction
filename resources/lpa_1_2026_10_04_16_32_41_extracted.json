@@ -1,0 +1,64 @@
+{
+    "fees": [
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "MANAGEMENT_FEE",
+            "phase": "INVESTMENT_PERIOD",
+            "rate_percentage": 2.0,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": "Section 2.1",
+            "raw_text_citation": "Management Fee is 2.0% per annum.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "CARRIED_INTEREST",
+            "phase": "POST_INVESTMENT_PERIOD",
+            "rate_percentage": 20.0,
+            "calculation_basis": "NET_ASSET_VALUE",
+            "hurdle_rate_percentage": 8.0,
+            "frequency": "Annually",
+            "source_clause": "Section 4.1",
+            "raw_text_citation": "Carried Interest is 20.0% of Net Asset Value, subject to 8.0% hurdle rate.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "ORGANIZATIONAL_EXPENSES",
+            "phase": "ENTIRE_TERM",
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": "Section 2.2",
+            "raw_text_citation": "Organizational Expenses are not capped.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "TRANSACTION_FEE_OFFSET",
+            "phase": "ENTIRE_TERM",
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": "Section 2.3",
+            "raw_text_citation": "Transaction Fee Offset is not specified.",
+            "additional_notes": null
+        },
+        {
+            "fund_name": "Venture Fund Entity",
+            "fee_type": "OTHER",
+            "phase": "ENTIRE_TERM",
+            "rate_percentage": null,
+            "calculation_basis": null,
+            "hurdle_rate_percentage": null,
+            "frequency": null,
+            "source_clause": "Section 2.4",
+            "raw_text_citation": "Other Fees are not specified.",
+            "additional_notes": null
+        }
+    ]
+}

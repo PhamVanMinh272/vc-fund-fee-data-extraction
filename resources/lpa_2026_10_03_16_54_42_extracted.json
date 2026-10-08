@@ -1,0 +1,18 @@
+{
+    "fee_types": [
+        {
+            "fee_type": "Management Fee",
+            "amount": "2% of AUM",
+            "frequency": "Annually",
+            "effective_date": "2023-01-01",
+            "additional_notes": "Management fee paid to the General Partner on an annual basis."
+        },
+        {
+            "fee_type": "Carried Interest",
+            "amount": "20% of profits",
+            "frequency": "Quarterly",
+            "effective_date": "2023-01-01",
+            "additional_notes": "Carried interest paid to the General Partner upon the sale of the portfolio investments."
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+"{\"fee_types\": [{\"fee_type\": \"Management Fee\", \"amount\": \"1.5% of NAV\", \"frequency\": \"Monthly\", \"effective_date\": \"2023-01-01\", \"additional_notes\": \"None\"}, {\"fee_type\": \"Performance Fee\", \"amount\": \"2% of AUM\", \"frequency\": \"Annually\", \"effective_date\": \"2023-01-01\", \"additional_notes\": \"None\"}]}"

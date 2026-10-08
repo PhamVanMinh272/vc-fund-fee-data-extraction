@@ -1,0 +1,30 @@
+[
+    {
+        "fee_type": "Management Fee",
+        "amount": "1.5% of NAV",
+        "frequency": "Monthly",
+        "effective_date": "2023-01-01",
+        "additional_notes": ""
+    },
+    {
+        "fee_type": "Management Fee",
+        "amount": "2% of AUM",
+        "frequency": "Quarterly",
+        "effective_date": "2023-01-01",
+        "additional_notes": ""
+    },
+    {
+        "fee_type": "Performance Fee",
+        "amount": "20% of Excess Returns",
+        "frequency": "Annually",
+        "effective_date": "2023-01-01",
+        "additional_notes": ""
+    },
+    {
+        "fee_type": "Carried Interest",
+        "amount": "2% of Net Profits",
+        "frequency": "Annually",
+        "effective_date": "2023-01-01",
+        "additional_notes": ""
+    }
+]
